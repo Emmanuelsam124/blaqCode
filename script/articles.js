@@ -18,7 +18,7 @@ export const articles = [
     image: "images/emmanuel-sam-blaqcode.webp",
     description:
       "To be honest, I only started off my programming career with Python. I fell in love with it, but then, JavaScript took me away from my first love. True, JavaScript has its own perks and worries.",
-    link: "#",
+    link: "blog/javascript-my-favorite-language.html",
     footer: "Learn Js",
     counterId: "result2",
     onClick: "clickCounter2()",
@@ -30,7 +30,7 @@ export const articles = [
     image: "images/emmanuel-sam-blaqcode.webp",
     description:
       "The term web development is all over the internet. It is basically all about the development of websites and web apps, using markup language like HTML, a cascading stylesheet called CSS, and a programming language called JavaScript.",
-    link: "#",
+    link: "blog/introduction-to-web-development.html",
     footer: "Javascript",
     counterId: "result3",
     onClick: "clickCounter3()",

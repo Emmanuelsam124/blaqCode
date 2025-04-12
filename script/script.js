@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <p>${article.description}</p>
        
         <div class="views">Views: <span class="click-count">${views}</span></div><br>
-        <a href="${article.link}" target="_blank">Tag: <span class="tag-col">${
+        <a href="${article.link}" target="_blank"><span class="tag-col">${
       article.footer
     }</span></a>
          </a>

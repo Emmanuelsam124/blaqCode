@@ -4,3 +4,31 @@
   justify-content: space-between;
   align-items: center;
 }
+.updated-p {
+  padding: 0;
+  margin: 0;
+}
+
+.art-image-date img {
+  margin-right: 1rem;
+}
+
+.updated-p {
+  font-weight: bold;
+}
+
+.article-body {
+  margin-top: 2rem;
+}
+
+article hr {
+  margin: 1rem 0;
+}
+
+article a {
+  text-decoration: underline;
+}
+article a:hover {
+  font-weight: bold;
+  color: #000;
+}

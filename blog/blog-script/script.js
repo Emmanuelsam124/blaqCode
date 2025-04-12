@@ -1,6 +1,12 @@
 import { articles } from "/script/articles.js";
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Adding the target="_blank" to all links witin the article tag
+  const articleLinks = document.querySelectorAll("article a");
+  articleLinks.forEach((link) => {
+    link.setAttribute("target", "_blank");
+  });
+
   // Get current page URL (filename only)
   const path = window.location.pathname;
   const page = path.substring(path.lastIndexOf("/") + 1);
@@ -73,12 +79,14 @@ hamburger.addEventListener("click", () => {
 // DATE SCRIPT
 const newDate = new Date();
 const getYear = newDate.getFullYear();
-const lastModifiedDate = document.lastModified;
+const lastModifiedRaw = new Date(document.lastModified); // Convert to Date object
 
 let footerSpanEl = document.getElementById("currentyear");
 footerSpanEl.innerHTML = getYear;
 
 let lastModifiedEl = document.getElementById("lastModified");
-lastModifiedEl.innerHTML = lastModifiedDate;
-
-console.log(lastModifiedDate);
+lastModifiedEl.innerHTML = lastModifiedRaw.toLocaleDateString("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});

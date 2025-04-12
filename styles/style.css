@@ -30,6 +30,7 @@ img {
 /* Default (light) theme */
 .article-heading {
   color: black;
+  margin: 0;
 }
 
 /* Dark theme override */
@@ -107,13 +108,16 @@ header a {
   text-decoration: none;
 }
 
+article.article-main h2 {
+  margin-bottom: 0.5rem;
+}
+
 /* Logo Styles */
 .logo,
 ._logo {
   max-width: 100%;
   height: auto;
   border-radius: 100%;
-  padding: 5px 10px 10px 10px;
 }
 
 /* Theme Toggle Icon */
@@ -130,9 +134,10 @@ main {
 }
 
 .tag-col {
-  background: rgb(119, 175, 119);
+  background: inherit;
   padding: 0.5rem 1rem;
-  color: #fff;
+  color: inherit;
+  border: 1px solid grey;
 }
 
 /* Headings */
@@ -145,7 +150,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 /* Article Card */
