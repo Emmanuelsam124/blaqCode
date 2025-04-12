@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
     <a href=${article.link}>
         <h3 class="article-heading">${article.title}</h3>
        
-        <div class="bio-date"> ${
+        <div class="bio-date">  ${
           article.image
             ? `<img src="${article.image}" alt="${article.title}" width="30" height="30"/>`
             : ""
         }
-         <p><strong>Date:</strong> ${article.date}</p>
+         <p><strong></strong> ${article.author}</p>
         </div>
         
         <p>${article.description}</p>
