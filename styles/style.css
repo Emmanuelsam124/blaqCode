@@ -129,6 +129,12 @@ main {
   display: block;
 }
 
+.tag-col {
+  background: rgb(119, 175, 119);
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
 /* Headings */
 .hey,
 h1 {
@@ -192,8 +198,8 @@ footer a img {
 
 /* Article Footer Badge */
 .articles-footer {
-  border: 1px solid rgb(119, 175, 119);
-  background: rgb(119, 175, 119);
+  border: 1px solid yellow;
+  background-color: rgb(201, 190, 43);
   padding: 5px;
   font-size: 13px;
   color: white;
