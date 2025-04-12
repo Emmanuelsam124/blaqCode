@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/blaqCode-logo.webp">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0" />
+    <meta charset="UTF-8" />
+    <meta name="description"
+        content="BlaqCode's website teaches coding concepts, and how to apply them. It is a blog for reading programming content" />
+    <meta name="keywords"
+        content="blaqCode website, learn to code and program, coding and program blog, my journey as a web developer" />
+    <meta name="author" content="Emmanuel Anietie Samuel" />
+    <title>Emmanuel Samuel (blaqCode)- A Web Developer</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/css-small.css">
+    <script type="module" src="script/script.js" defer></script>
+</head>
+
+<body id="body-theme">
+    <header>
+        <div>
+            <a href="index.html"><span title="blaqCode logo"> <img src="images/blaqCode-logo.webp" alt="blaqCode image"
+                        class="logo" width="50px;" height="50px;"></span></a>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><span class="theme-emoji" id="sun-theme" title="click to change theme">🌚</span></li>
+            </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+
+    <main>
+        <h1 class="hey">Hey 👋🏼, I'm BlaqCode</h1>
+        <p>I'm a frontend developer. I am currently stufying at BYU-Idaho and I also teach about web development. I have
+            built a number of projects and you can find them on glitch.com</p>
+        <br><br>
+        <section>
+            <h2>Recent Posts</h2>
+
+            <div id="articles-container"></div>
+
+
+        </section>
+        <br><br>
+        <section class="footer-section">
+            <h1>I'd like to keep you updated via email</h1>
+            <p>Subscribe now to my newsletters so you can stay updated on the latest gists and tutorials on web
+                development. Don't worry, I only send newsletters once every week 😜 </p>
+            <br>
+            <form action="Thank-you.html" method="get" id="revue-form" name="revue-form">
+                <label>Your name<br><input type="text" required></label><br><br>
+                <label>Email address<br><input name="member[email]" type="email" required></label><br><br>
+                <button type="submit" id="btn" value="Subscribe" name=""><strong>Subscribe to
+                        Newsletter</strong></button>
+            </form>
+        </section>
+        <br><br>
+        <hr>
+    </main>
+    <footer class="head-foot-col padding-1">
+        <p>© <span id="currentyear">2025</span> Emmanuel A. Samuel | Nigeria</p>
+        <p>Last Modified: <span id="lastModified">04/11/2025 03:41:28</span>
+        </p>
+    </footer>
+
+</body>
+
+</html>
