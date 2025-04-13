@@ -186,6 +186,7 @@ h2 {
 /* Article Paragraph */
 article p {
   color: gray;
+  font-weight: bold;
 }
 
 /* Links */
