@@ -1,4 +1,4 @@
-import { articles } from "../../script/articles.js";
+import { articles } from "../script/articles.js";
 
 document.addEventListener("DOMContentLoaded", function () {
   const container = document.getElementById("articles-container");
