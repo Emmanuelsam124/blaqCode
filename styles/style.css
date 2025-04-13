@@ -137,8 +137,8 @@ main {
 .tag-col {
   background: inherit;
   padding: 0.5rem 1rem;
-  color: inherit;
   border: 1px solid grey;
+  font-weight: bold;
 }
 
 /* Headings */
