@@ -1,4 +1,4 @@
-import { articles } from "/script/articles.js";
+import { articles } from "../../script/articles.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   // Adding the target="_blank" to all links witin the article tag
