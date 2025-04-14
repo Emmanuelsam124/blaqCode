@@ -32,3 +32,29 @@ article a:hover {
   font-weight: bold;
   color: #000;
 }
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+.byu-link {
+  color: gold;
+}
+
+.fcc-link {
+  color: green;
+}
+
+.web-develover-journey-img1 {
+  max-width: 100%;
+}
